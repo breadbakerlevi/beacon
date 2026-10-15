@@ -10,7 +10,6 @@ Beacon is a place-discovery app built around an interactive map. Pick a category
 
 Built as the exam project for **iOS Programming** (15 ECTS) at Kristiania University College.
 
-<!-- Add 2–3 screenshots here: map with pins, place details, saved places -->
 
 ## Features
 
