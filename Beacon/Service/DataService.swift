@@ -9,7 +9,7 @@ struct DataService {
         limit: Int = 10
     ) async throws -> FeatureCollection {
         
-        let apiKey = "2926566dd63148a1b51e8cf676ce01ee"
+        let apiKey = "YOUR_GEOAPIFY_KEY"
         
         guard let url = URL(string: "https://api.geoapify.com/v2/places?categories=\(category)&filter=circle:\(lon),\(lat),\(radius)&limit=\(limit)&apiKey=\(apiKey)") else {
             throw URLError(.badURL)
